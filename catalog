@@ -50,18 +50,43 @@
       <!-- здесь будет Крафтовый квас -->
     </section>
 
-    <p>Сетка:</p>
-    <label>
-      <input type="radio" name="grid" value="Адаптивная" checked> <br>
-    </label>
+    <div class="">
+      <p>Сетка:</p>
+      <label>
+        <input type="radio" name="grid" value="Адаптивная" checked>Адаптивная <br>
+      </label>
 
-    <label>
-      <input type="radio" name="grid" value="Фиксированная"> <br>
-    </label>
+      <label>
+        <input type="radio" name="grid" value="Фиксированная">Фиксированная <br>
+      </label>
 
-    <label>
-      <input type="radio" name="grid" value="Резиновая"> <br>
-    </label>
+      <label>
+        <input type="radio" name="grid" value="Резиновая">Резиновая <br>
+      </label>
+    </div>
+
+    <div class="">
+      <p>ОСОБЕННОСТИ:</p>
+      <label>
+        <input type="radio" name="features" value="Слайдер" checked>Слайдер <br>
+      </label>
+
+      <label>
+        <input type="radio" name="features" value="Блок преимуществ">Блок преимуществ <br>
+      </label>
+
+      <label>
+        <input type="radio" name="features" value="Новости" checked> Новости<br>
+      </label>
+      <label>
+        <input type="radio" name="features" value="Галерея" >Галерея <br>
+      </label>
+
+      <label>
+        <input type="radio" name="features" value="Корзина">Корзина <br>
+      </label>
+    </div>
+        <button type="button">ПОКАЗАТЬ</button>
 
   </main>
 
