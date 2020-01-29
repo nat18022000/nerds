@@ -26,8 +26,6 @@
   </header>
 
   <main>
-  
-
     <div class="">
       <p>Сетка:</p>
       <label>
@@ -65,6 +63,15 @@
       </label>
     </div>
         <button type="button">ПОКАЗАТЬ</button>
+
+    <ul>
+      <li><img src=""width="360" height="615" alt="Sedona"> </li>
+      <li><img src="" width="360" height="615" alt="Pink"></li>
+      <li><img src="" width="360" height="615" alt="barbershop Borodinski"></li>
+      <li><img src="" width="360" height="615" alt="Mishka"></li>
+      <li><img src="" width="360" height="615" alt="Учеба"></li>
+      <li><img src="" width="360" height="615" alt="Крафтовый квас"></li>
+    </ul>
 
   </main>
 
