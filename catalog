@@ -62,7 +62,7 @@
         <input type="radio" name="features" value="Корзина">Корзина <br>
       </label>
     </div>
-        <button type="button">ПОКАЗАТЬ</button>
+        <button type="button">Показать</button>
 
     <ul>
       <li><img src=""width="360" height="615" alt="Sedona"> </li>
