@@ -8,7 +8,7 @@
 
 <body>
   <header>
-    <a href="#"> </a>
+    <img src="img\nerds-logo.svg" alt="Логотип Nerds"><a href="nerds-index.html"> </a>
     <!-- Логотип — это ссылка на главную страницу.  -->
     <nav>
       <ul>
