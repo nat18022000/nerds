@@ -7,6 +7,7 @@
   <body>
     <header>
       <nav>
+          <img src="img\nerds-logo.svg" alt="Логотип Nerds" width="160" height="65" >
         <ul>
           <li><a href="#">Студия</a></li>
           <li><a href="#">Клиенты</a></li>
