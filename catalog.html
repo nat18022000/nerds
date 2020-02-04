@@ -7,114 +7,144 @@
 </head>
 
 <body>
-  <header>
-    <a href="index.html"> <img src="img/nerds-logo.svg" alt="Логотип Nerds" width="160" height="65">  </a>
-    <!-- Логотип — это ссылка на главную страницу.  -->
-    <nav>
-      <ul>
-        <li><a href="#">Студия</a></li>
-        <li><a href="#">Клиенты</a></li>
-        <li><a href="">Магазин</a></li>
-        <li><a href="#">Контакты</a></li>
+  <header class="page-header">
+    <div class="nerds-logo">
+      <a href="index.html"> <img src="img/nerds-logo.svg" alt="Логотип Нёрдс" width="160" height="65">  </a>
+    </div>
+    <nav class="top-menu">
+      <ul class="top-menu-list">
+        <li class="top-menu-item"><a href="#">Студия</a></li>
+        <li class="top-menu-item"><a href="#">Клиенты</a></li>
+        <li class="top-menu-item"><a class="current">Магазин</a></li>
+        <li class="top-menu-item"><a href="#">Контакты</a></li>
       </ul>
-      <ul>
-        <li><img src="img/cart-icon.svg" alt="Корзина иконка" width="15" height="15"> </li>
-        <li><a href="#">Корзина</a></li>
+      <ul class="cart">
+        <li class="cart-icon"><img src="img/cart-icon.svg" alt="Корзина иконка" width="15" height="15"> </li>
+        <li class="cart-link"><a href="#">Корзина</a></li>
       </ul>
     </nav>
-
-    <h1>Магазин готовых шаблонов</h1>
+    <h1 class="header-title">Магазин готовых шаблонов</h1>
   </header>
 
   <main>
-    <div class="">
-      <p>Сетка:</p>
-      <label>
-        <input type="radio" name="grid" value="Адаптивная" checked>Адаптивная <br>
-      </label>
+    <section class="filter-full">
+      <div class="cost">
+      </div>
 
-      <label>
-        <input type="radio" name="grid" value="Фиксированная">Фиксированная <br>
-      </label>
+      <form class="filter" action="index.html" method="post">
+        <fieldset class="grid">
+          <legend >Сетка:</legend>
+            <ul>
+              <li>
+                <input type="radio" name="grid" value="Адаптивная" id="grid-adaptive" checked>
+                <label for="grid-adaptive">Адаптивная</label>
+              </li>
+              <li>
+                <input type="radio" name="grid" value="Фиксированная" id="grid-fix">
+                <label for="grid-fix">Фиксированная</label>
+              </li>
+              <li>
+                <input type="radio" name="grid" value="Резиновая" id="grid-elastic">
+                <label for="grid-elastic">Резиновая</label>
+              </li>
+            </ul>
+        </fieldset>
 
-      <label>
-        <input type="radio" name="grid" value="Резиновая">Резиновая <br>
-      </label>
-    </div>
+        <fieldset class="features">
+          <legend>Особенности:</legend>
+          <ul>
+            <li>
+              <input type="checkbox" name="slider" id="slider" checked>
+              <label for="slider">Слайдер</label>
+            </li>
+            <li>
+              <input type="checkbox" name="advantages" id="advantages" >
+              <label for="advantages">Блок преимуществ</label>
+            </li>
+            <li>
+              <input type="checkbox" name="news" id="news" checked>
+              <label for="news">Новости</label>
+            </li>
+            <li>
+              <input type="checkbox" name="gallery" id="gallery">
+              <label for="gallery">Галерея</label>
+            </li>
+            <li>
+              <input type="checkbox" name="basket" id="basket">
+              <label for="basket">Корзина</label>
+            </li>
+          </ul>
+        </fieldset>
+        <button type="submit">Показать</button>
+        </form>
+    </section>
 
-    <div class="">
-      <p>ОСОБЕННОСТИ:</p>
-      <label>
-        <input type="radio" name="features" value="Слайдер" checked>Слайдер <br>
-      </label>
 
-      <label>
-        <input type="radio" name="features" value="Блок преимуществ">Блок преимуществ <br>
-      </label>
-
-      <label>
-        <input type="radio" name="features" value="Новости" checked> Новости<br>
-      </label>
-      <label>
-        <input type="radio" name="features" value="Галерея" >Галерея <br>
-      </label>
-
-      <label>
-        <input type="radio" name="features" value="Корзина">Корзина <br>
-      </label>
-    </div>
-        <button type="button">Показать</button>
-
-    <div class="templates">
-      <div class="sedona">
-        <img src="img/browser.svg" alt="Полоса браузера" width="360" height="40">
+    <div class="catalog">
+      <div class="catalog-item sedona">
         <img src="img/img-sedona.jpg" alt="Sedona" width="360" height="576">
+        <div class="hidden">
+
+        </div>
       </div>
-      <div class="pink">
-        <img src="img/browser.svg" alt="Полоса браузера" width="360" height="40">
+      <div class="catalog-item pink">
         <img src="img/img-pink.jpg" alt="Pink" width="360" height="576">
+        <div class="hidden">
+
+        </div>
       </div>
-      <div class="barbershop">
-        <img src="img/browser.svg" alt="Полоса браузера" width="360" height="40">
+      <div class="catalog-item barbershop">
         <img src="img/img-barbershop.jpg" alt="barbershop" width="360" height="576">
+        <div class="hidden">
+
+        </div>
       </div>
-      <div class="mishka">
-        <img src="img/browser.svg" alt="Полоса браузера" width="360" height="40">
+      <div class="catalog-item mishka">
         <img src="img/img-mishka.jpg" alt="mishka" width="360" height="576">
+        <div class="hidden">
+
+        </div>
       </div>
-      <div class="aplus">
-        <img src="img/browser.svg" alt="Полоса браузера" width="360" height="40">
+      <div class="catalog-item aplus">
         <img src="img/img-aplus.jpg" alt="aplus" width="360" height="576">
+        <div class="hidden">
+
+        </div>
       </div>
-      <div class="kvast">
-        <img src="img/browser.svg" alt="Полоса браузера" width="360" height="40">
+      <div class="catalog-item kvast">
         <img src="img/img-kvast.jpg" alt="kvast" width="360" height="576">
+        <div class="hidden">
+
+        </div>
       </div>
     </div>
   </main>
 
-  <footer>
+  <footer class="page-footer">
     <section class="contacts">
-      <h2>Контакты</h2>
+      <h2 class="visually-hidden" >Контакты</h2>
       <img src="img/map.jpg" alt="Карта" width="1440" height="416">
-      <img src="img/map-marker.png" alt="Указатель на карте" width="367" height="190">
-      <div class="">
-        <img src="img/logo-font.png" alt="Логотип буквами" width="192" height="17">
-        <p>191186, Санкт-Петербург, <br>
-           ул. Б. Конюшенная, д. 19/8 <br>
-           тел. +7 (812) 275-75-75</p>
-        <button type="button" name="button">Напишите нам</button>
+      <img class="marker" src="img/map-marker.png" alt="Указатель на карте" width="367" height="190">
+      <div class="address">
+        <div class="address-logo">
+          <img src="img/logo-font.png" alt="Логотип буквами" width="192" height="17">
+        </div>
+        <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+           тел. <a href="tel:+78122757575">+7 (812) 275-75-75</a></p>
+        <button type="submit" name="button">Напишите нам</button>
       </div>
     </section>
 
-    <div>
-      <p>Давайте дружить, это выгодно!</p>
-      <p>Скидка 10% для друзей из социальных сетей.</p>
+    <div class="footer-social">
       <ul>
-        <li><a href="#">Вконтакте</a></li>
-        <li><a href="#">Фейсбук</a></li>
-        <li><a href="#">Инстаграм</a></li>
+        <li class="social-button"><a href="#">Вконтакте</a> </li>
+        <li class="social-button"><a href="#">Фейсбук</a></li>
+        <li class="social-button"><a href="#">Инстаграм</a></li>
       </ul>
+      <div class="footer-text">
+        <p class="footer-text-first">Давайте дружить, это выгодно!</p>
+        <p>Скидка 10% для друзей из социальных сетей.</p>
+      </div>
     </div>
   </footer>
 </body>
