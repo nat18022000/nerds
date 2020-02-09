@@ -21,3 +21,8 @@ a {
 
   background-color:#eeeeee;
 }
+
+.menu-item,
+.cart {
+  list-style: none;  
+}
