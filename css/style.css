@@ -6,16 +6,19 @@ body {
   font-size: 16px;
   line-height: 24px;
   font-weight: normal;
-  color:#000000;
+  color: #000000;
 
-   background-color:#ffffff;
+   background-color: #ffffff;
 }
 
 a {
   text-decoration: none;
 }
+
+ /* Текстовое оформление ссылок в навигиции хедера */
 .page-header {
   line-height: 30px;
+  font-weight: 500;
   color: #000000;
   text-transform: uppercase;
 
@@ -28,7 +31,7 @@ a {
 }
 
 .menu a {
-  color:#000000;
+  color: #000000;
 }
 
 .menu a:hover {
@@ -45,20 +48,27 @@ a {
   border-bottom: 2px solid #fb565a;
 }
 
+/* Заголовки в блоке преимуществ */
 .advantages .title {
   font-size: 24px;
   line-height: 30px;
-  color:#000000;
+  font-weight: 700;
+  color: #000000;
   text-transform: uppercase;
 }
 
+/* Кнопки в блоке преимуществ */
 .button {
   font-size: 16px;
   line-height: 18px;
+  font-weight: 500;
+  text-align: center;
   color: #ffffff;
+  vertical-align: middle;
   text-transform: uppercase;
 
-  background-color:#fb565a;
+  background-color: #fb565a;
+  border: none;
 }
 
 .button.red:hover {
@@ -68,27 +78,28 @@ a {
 .button.red:focus {
   color: #e37376;
 
-  background-color:#d7373b;
+  background-color: #d7373b;
 }
 
 .button.green {
-  background-color:#00ca74;
+  background-color: #00ca74;
 }
 
 .button.green:hover {
-  background-color:#00bc6c;
+  background-color: #00bc6c;
 }
 
 .button.green:focus {
   color: #4dc491;
 
-  background-color:#00aa62;
+  background-color: #00aa62;
 }
 .button.yellow {
-  background-color:#efc84a;
+  background-color: #efc84a;
 }
 
 .button.yellow:hover {
+  font-weight: 500;
   background-color: #eab534;
 }
 
@@ -96,4 +107,69 @@ a {
   color: #edc265;
 
   background-color: #e5a722;
+}
+
+/* Блок студия */
+.about .title {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+}
+
+.about .list-title,
+.statistics .text {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.about-list{
+  list-style: none;
+  /*list-style-image: url("img/marker-list.png");*/
+}
+
+.row-first {
+  font-size: 45px;
+  line-height: 10px;
+  font-weight: 700;
+}
+
+.row-second {
+  line-height: 18px;
+}
+
+.partners-list {
+  list-style: none;
+
+  opacity: 0.2;
+}
+
+.partners-list:hover {
+  opacity: 1;
+}
+
+.partners-list:focus {
+  opacity: 0.1;
+}
+
+/* Блок контакты */
+.map img {
+  background-color: #e9e5dc;
+}
+
+.address {
+  background-color: #ffffff;
+}
+
+.footer-text-first {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.discount {
+  line-height: 22px;
+}
+
+.socials-list {
+  background-color: #e1e1e1;
 }
