@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0;
   padding: 0;
 
@@ -11,13 +11,13 @@ body{
    background-color:#ffffff;
 }
 
-a{
+a {
   text-decoration: none;
 }
-.menu-item{
+.page-header {
   line-height: 30px;
   color: #000000;
   text-transform: uppercase;
 
-  background-color:#eeeeee;   
+  background-color:#eeeeee;
 }
