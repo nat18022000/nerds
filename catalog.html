@@ -13,12 +13,12 @@
   <header class="page-header">
       <nav class="menu">
         <div class="logo">
-          <img src="img/nerds-logo.svg" alt="Логотип Нёрдс" width="160" height="65" >
+          <a href="index.html"><img src="img/nerds-logo.svg" alt="Логотип Нёрдс" width="160" height="65" ></a>
         </div>
         <ul class="menu-list">
           <li class="menu-item"><a href="#">Студия</a></li>
           <li class="menu-item"><a href="#">Клиенты</a></li>
-          <li class="menu-item"><a href="catalog.html">Магазин</a></li>
+          <li class="menu-item"><a class="current">Магазин</a></li>
           <li class="menu-item"><a href="#">Контакты</a></li>
         </ul>
         <ul class="cart">
@@ -78,7 +78,7 @@
             </li>
           </ul>
         </fieldset>
-        <button type="submit">Показать</button>
+        <button class="button-show" type="submit">Показать</button>
         </form>
     </section>
 
@@ -89,7 +89,7 @@
         <div class="hidden">
           <a class="title" href="#">Sedona</a>
           <p class="catalog-text">Информационный сайт  для туристов</p>
-          <button type="button" name="button">9 900 руб.</button>
+          <button class="button" type="button" name="button">9 900 руб.</button>
         </div>
       </div>
 
@@ -98,7 +98,7 @@
         <div class="hidden">
           <a class="title" href="#">Pink App</a>
           <p class="catalog-text">Продуктовый лендинг приложения для iOS и Android</p>
-          <button type="button" name="button">9 900 руб.</button>
+          <button class="button" type="button" name="button">9 900 руб.</button>
         </div>
       </div>
 
@@ -107,7 +107,7 @@
         <div class="hidden">
           <a class="title" href="#">Barbershop</a>
           <p class="catalog-text">Сайт салона красоты. Для мужчин, да.</p>
-          <button type="button" name="button">9 900 руб.</button>
+          <button class="button" type="button" name="button">9 900 руб.</button>
         </div>
       </div>
 
@@ -116,7 +116,7 @@
         <div class="hidden">
           <a class="title" href="#">Mishka</a>
           <p class="catalog-text">Интернет-магазин  вязаных игрушек</p>
-          <button type="button" name="button">9 900 руб.</button>
+          <button class="button" type="button" name="button">9 900 руб.</button>
         </div>
       </div>
 
@@ -125,7 +125,7 @@
         <div class="hidden">
           <a class="title" href="#">A Plus</a>
           <p class="catalog-text">Лендинг курсов повышения квалификации</p>
-          <button type="button" name="button">9 900 руб.</button>
+          <button class="button" type="button" name="button">9 900 руб.</button>
         </div>
       </div>
 
@@ -134,7 +134,7 @@
         <div class="hidden">
           <a class="title" href="#">Кваст</a>
           <p class="catalog-text">Промо-сайт производителя крафтового кваса</p>
-          <button type="button" name="button">9 900 руб.</button>
+          <button class="button" type="button" name="button">9 900 руб.</button>
         </div>
       </div>
     </div>
@@ -153,26 +153,27 @@
           <img src="img/logo-font.png" alt="Логотип буквами" width="192" height="17">
         </div>
         <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
-           тел. <a href="tel:+78122757575">+7 (812) 275-75-75</a></p>
+           тел. <a class="tel" href="tel:+78122757575" alt="Телефон офиса">+7 (812) 275-75-75</a></p>
         <a class="button" href="#">Напишите нам</a>
       </div>
     </section>
 
     <div class="socials">
       <ul class="socials-list">
-        <li class="social-item"><a href="#">Вконтакте</a> </li>
-        <li class="social-item"><a href="#">Фейсбук</a></li>
-        <li class="social-item"><a href="#">Инстаграм</a></li>
+
+        <li class="social-item vk" ><a href="#" alt="ссылка на группу в Вконтакте"><img src="img/vk-icon.svg" alt="Логотип Вконтакте"></a> </li>
+        <li class="social-item"><a href="#" alt="ссылка на группу в Фейсбуке"><img src="img/fb-icon.svg" alt="Логотип Фейсбук"></a></li>
+        <li class="social-item"><a href="#" alt="ссылка на группу в Инстаграм"><img src="img/insta-icon.svg" alt="Логотип Инстаграм"></a></li>
       </ul>
       <div class="footer-text">
         <p class="footer-text-first">Давайте дружить, это выгодно!</p>
-        <p>Скидка 10% для друзей из социальных сетей.</p>
+        <p class="discount">Скидка 10% для друзей из социальных сетей.</p>
       </div>
     </div>
 
     <section class="write-us">
       <h2>Напишите нам</h2>
-      <form class="" action="https://echo.htmlacademy.ru" method="post">
+      <form class="letter" action="https://echo.htmlacademy.ru" method="post">
         <p class="name">
           <label for="name">Ваше имя:</label>
           <input type="text" name="name" id="name" placeholder="Имя Фамилия">
@@ -182,10 +183,10 @@
           <input type="text" name="email" id="email" placeholder="email@example.com">
         </p>
         <p class="write-us-text">
-          <label for="message">Напишите нам</label>
-          <textarea name="message" rows="2" cols="75" id="message" placeholder="В свободной форме"></textarea>
+          <label for="message">Текст письма</label>
+          <textarea class="message" name="message" rows="2" cols="75" id="message" placeholder="В свободной форме"></textarea>
         </p>
-        <button type="submit" name="write-us-submit">Отправить</button>
+        <button class="button" type="submit" name="write-us-submit">Отправить</button>
       </form>
     </section>
   </footer>
