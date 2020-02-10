@@ -110,6 +110,15 @@ a {
   background-color: #e5a722;
 }
 
+/* Кнопка в блоке каталог */
+.catalog .button:hover {
+  background-color: #e74246;
+}
+
+.catalog .button:focus {
+ background-color: #d7373b;
+}
+
 /* Блок студия */
 .about .title {
   font-size: 45px;
@@ -125,7 +134,7 @@ a {
 
 .about-list{
   list-style: none;
-  /*list-style-image: url("img/marker-list.png");*/
+  /* list-style-image: url("img/marker-list.png"); */
 }
 
 .row-first {
@@ -188,6 +197,7 @@ a {
   background-color: #d7373b;
 }
 
+/* Блок Напишите нам */
 .write-us h2 {
   font-size: 45px;
   line-height: 45px;
@@ -202,44 +212,32 @@ a {
   border: 2px solid #d7dcde;
 }
 
+.write-us input:hover,
+.write-us textarea:hover {
+  color: #a1a1a1;
+
+  border: 2px solid #b4b9bb;
+}
+
+.write-us input:focus,
+.write-us textarea:focus{
+  color: #444444;
+  border: 2px solid #000000;
+}
+
 label {
   font: inherit;
   font-weight: 700;
 }
 
-.write-us input[type="text"],
-.write-us input[type="text"]:hover {
-  color: #a1a1a1;
+/*  */
+.visually-hidden {
+  display: none;
 }
 
-.write-us input[type="text"]:focus {
-  color: #444444;
-}
-
-.message,
-.message:hover {
-  color: #a1a1a1;
-}
-.message:focus {
-  color: #444444;
-}
-
-.message:disabled {
-  color: #e74246;
-}
-
-.write-us input:hover,
-.write-us textarea:hover {
-  border: 2px solid #b4b9bb;
-}
-
-.write-us input:focus,
-.write-us textarea:focus {
-  border: 2px solid #000000;
-}
-.write-us textarea:disabled {
-  border: 2px solid #e74246;
-}
+/* .hidden {
+  display: none;
+}*/
 
 /* Страница каталога */
 .inner-page .header-title {
@@ -247,4 +245,63 @@ label {
   line-height: 55px;
   font-weight:500;
   text-transform: none;
+}
+
+.grid-list,
+.features-list {
+  list-style: none;
+}
+
+legend {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight:700;
+  text-transform: uppercase;
+}
+
+
+.grid label,
+.features label {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight:normal;
+}
+
+.button-show {
+  color: #000000;
+  font: inherit;
+  text-transform: uppercase;
+
+  background-color: #eeeeee;
+  border: none;
+}
+
+.button-show:hover {
+  background-color: #dfdfdf;
+}
+
+.button-show:focus {
+  color: #959595;
+
+  background-color: #d5d5d5;
+}
+
+
+.catalog .title {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight:700;
+  color: #000000;
+}
+
+.catalog .title:hover {
+  color: #fb565a;
+}
+
+.catalog .title:focus {
+  color: #b2b2b2;
+}
+
+.catalog-text {
+  color: #818181;
 }
