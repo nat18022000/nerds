@@ -249,14 +249,15 @@ legend {
 
 .grid label,
 .features label {
-  font-size: 16px;
   line-height: 20px;
   font-weight:normal;
 }
 
 .button-show {
   color: #000000;
-  font: inherit;
+  /* font: inherit; */
+  font-family: inherit;
+
   text-transform: uppercase;
 
   background-color: #eeeeee;
