@@ -50,7 +50,6 @@ a {
 
 /* Кнопки в блоке преимуществ */
 .button {
-  font-size: inherit;
   line-height: 18px;
   font-weight: 500;
   color: #ffffff;
@@ -169,9 +168,6 @@ a {
   line-height: 22px;
 }
 
-.tel {
-  text-decoration: none;
-}
 
 .socials-list {
   background-color: #e1e1e1;
@@ -227,12 +223,11 @@ label {
 }*/
 
 /* Страница каталога */
-.inner-page .header-title {
+.header-title {
   font-size: 55px;
   line-height: 55px;
   font-weight:500;
-  text-transform: none;
-}
+  }
 
 .grid-list,
 .features-list {
@@ -255,9 +250,7 @@ legend {
 
 .button-show {
   color: #000000;
-  /* font: inherit; */
   font-family: inherit;
-
   text-transform: uppercase;
 
   background-color: #eeeeee;
