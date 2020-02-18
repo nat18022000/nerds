@@ -68,11 +68,38 @@ a {
   padding: 0 10px;
 }
 
-
+.slider {
+  margin: 0 auto;
+  /* height: 415px; */
+  /* margin: 0; */
+  padding: 0;
+  margin-bottom: 80px;
+  /* background-color: #eeeeee; */
+  /* background-color: aqua; */
+  width: 1160px;
+}
 
 .slider-title {
+  margin: 0;
+  padding: 0;
   padding-top: 65px;
 }
+
+.slider-item {
+  background-color: gold;
+}
+
+.slider-item:nth-child(3),
+.slider-item:last-child {
+  display: none;
+}
+
+.slider-text {
+  margin: 0;
+}
+
+
+.
 .menu a:hover {
   color: #f7898b;
 }
@@ -90,12 +117,43 @@ a {
 
 /* Заголовки в блоке преимуществ */
 .advantages .title {
+  margin: 0;
   font-size: 24px;
   line-height: 30px;
   font-weight: 700;
   text-transform: uppercase;
+  padding-top: 30px;
+  width: 300px;
 }
 
+.advantages {
+  /* width:auto; */
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 200px;
+  margin-left: 140px;
+  /* width: 300px; */
+
+  /* width: 1100px; */
+}
+
+.advantages-item img {
+  width: 300px;
+  height: 146px;
+}
+
+
+
+.advantages .text {
+  margin: 0;
+  width: 238px;
+}
+
+.studio .title {
+  width: 650px;
+}
 /* Кнопки в блоке преимуществ */
 .button {
   line-height: 18px;
