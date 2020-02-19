@@ -25,7 +25,6 @@ a {
   align-items: center;
   justify-content: space-around;
   height: 65px;
-
   padding-top: 50px;
   padding-bottom: 18px;
 
@@ -62,7 +61,7 @@ a {
 .menu-wrapper .container{
   display: flex;
   justify-content: space-between;
-  width: 1160px;
+  /* width: 1160px; */
 
 }
 
@@ -127,12 +126,8 @@ a {
   margin: 0;
   width: 360px;
   padding-bottom: 40px;
-
-
 }
 
-
-.
 .menu a:hover {
   color: #f7898b;
 }
@@ -148,6 +143,11 @@ a {
   border-bottom: 2px solid #fb565a;
 }
 
+.advantages .container {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+}
 /* Заголовки в блоке преимуществ */
 .advantages .title {
   margin: 0;
@@ -156,21 +156,21 @@ a {
   font-weight: 700;
   text-transform: uppercase;
   padding-top: 30px;
+  padding-bottom: 25px;
   width: 300px;
 }
 
 .advantages {
   /* width:auto; */
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
   /* margin-right: 200px; */
   /* margin-left: 140px; */
   /* width: 300px; */
 
   /* width: 1100px; */
+  /* background-color: aqua; */
 }
 
 .advantages-item img {
@@ -182,7 +182,8 @@ a {
 
 .advantages .text {
   margin: 0;
-  width: 238px;
+  width: 260px;
+  padding-bottom: 40px;
 }
 
 .studio .title {
@@ -195,9 +196,22 @@ a {
   color: #ffffff;
   vertical-align: middle;
   text-transform: uppercase;
+  height: 50px;
+  width: 160px;
+  display: inline-block;
 
   background-color: #fb565a;
   border: none;
+}
+
+.slider .button {
+  width: 240px;
+}
+
+.learn-more {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .button.red:hover {
