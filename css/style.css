@@ -9,6 +9,8 @@ body {
 a {
   text-decoration: none;
   color: #000000;
+  display: inline-block;
+  padding: 20px 40px;
 }
 
  /* Текстовое оформление ссылок в навигиции хедера */
@@ -61,48 +63,33 @@ a {
 .menu-wrapper .container{
   display: flex;
   justify-content: space-between;
-  /* width: 1160px; */
-
 }
 
 .menu .container {
   width: 800px;
   margin: 0 auto;
-  /* margin-bottom: 25px; */
 
   padding: 0 10px;
 }
 
 .slider {
-  /* margin: 0 auto; */
-  /* height: 415px; */
-  /* margin: 0; */
   padding: 0;
-  /* margin-bottom: 80px; */
-  padding-bottom: 80px;
-  /* margin-top: 25px; */
+
+  margin-bottom: 80px;
+
   background-color: #eeeeee;
-  /* background-color: aqua; */
-  width: 1160px;
-  /* width: auto; */
-  background-image: url("img/slide1.jpg");
-  background-position: right;
-  background-repeat: no-repeat;
+
 
 
 }
 
-.page-content .container {
-  /* display: flex; */
-  /* justify-content: space-between; */
-  /* background-color: #eeeeee; */
-  height: 430px;
-  /* width: 1160px; */
+ .page-content .container {
 
 }
 
 .slider-title {
   margin: 0;
+  margin-left: 140px;
   padding: 0;
   padding-top: 65px;
   padding-bottom: 30px;
@@ -115,6 +102,10 @@ a {
 
 .slider-item {
   /* background-color: gold; */
+  /* background-image: url("img/slide1.jpg"); */
+  /* background-position: right; */
+  /* background-repeat: no-repeat; */
+
 }
 
 .slider-item:nth-child(3),
@@ -124,8 +115,10 @@ a {
 
 .slider-text {
   margin: 0;
+  margin-left: 140px;
   width: 360px;
   padding-bottom: 40px;
+
 }
 
 .menu a:hover {
@@ -146,7 +139,6 @@ a {
 .advantages .container {
   display: flex;
   justify-content: space-around;
-  /* align-items: center; */
 }
 /* Заголовки в блоке преимуществ */
 .advantages .title {
@@ -161,24 +153,13 @@ a {
 }
 
 .advantages {
-  /* width:auto; */
-  /* margin: 0 auto; */
   padding: 0;
-
-  /* margin-right: 200px; */
-  /* margin-left: 140px; */
-  /* width: 300px; */
-
-  /* width: 1100px; */
-  /* background-color: aqua; */
 }
 
 .advantages-item img {
   width: 300px;
   height: 146px;
 }
-
-
 
 .advantages .text {
   margin: 0;
@@ -196,23 +177,29 @@ a {
   color: #ffffff;
   vertical-align: middle;
   text-transform: uppercase;
-  height: 50px;
-  width: 160px;
-  display: inline-block;
-
+  
   background-color: #fb565a;
   border: none;
+  border-radius: 2px;
 }
 
 .slider .button {
-  width: 240px;
+  display: inline-block;
+  padding: 20px 60px;
+  margin-left: 140px;
 }
 
-.learn-more {
-  display: inline-block;
-  text-align: center;
-  vertical-align: middle;
+
+
+.address a {
+  padding: 20px 50px;
 }
+
+button.button {
+  padding: 20px 80px;
+}
+
+
 
 .button.red:hover {
   background-color: #e74246;
