@@ -263,7 +263,7 @@ button.button {
   margin-right: 140px;
   margin-left: 140px;
 
-  justify-content: space-around;
+  justify-content: space-between;
 
   border-top: 2px solid #eeeeee;
   border-bottom: 2px solid #eeeeee;
@@ -278,7 +278,10 @@ button.button {
   padding: 0;
   margin-right: 140px;
   margin-left: 140px;
-  /* margin: 0 auto; */
+  
+  list-style: none;
+
+  opacity: 0.2;
 }
 
 .about .title {
@@ -347,10 +350,23 @@ button.button {
   line-height: 18px;
 }
 
-.partners-list {
-  list-style: none;
+td {
+  width: 104px;
+  height: 35px;
+  padding-top: 25px;
+  padding-right: 20px;
+}
 
-  opacity: 0.2;
+.statistics .logo {
+  width: 360px;
+  height: 208px;
+  /* margin-right: 140px; */
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.statistics .text {
+  padding-bottom: 40px;
 }
 
 .partners-list:hover {
