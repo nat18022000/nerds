@@ -89,6 +89,7 @@ p {
 }
 
  .page-content .container {
+   min-width: 1160px;
 
 }
 
@@ -144,6 +145,7 @@ p {
 .advantages .container {
   display: flex;
   justify-content: space-around;
+  min-width: 1160px;
 }
 /* Заголовки в блоке преимуществ */
 .advantages .title {
@@ -159,6 +161,11 @@ p {
 
 .advantages {
   padding: 0;
+}
+
+.advantages-item {
+  margin: 0 auto;
+  /* padding-right: 100px; */
 }
 
 .advantages-item img {
@@ -260,28 +267,45 @@ button.button {
 .studio .container {
   display: flex;
   margin-top: 80px;
-  margin-right: 140px;
-  margin-left: 140px;
-
-  justify-content: space-between;
+  min-width: 1160px;
+  /* margin:  auto; */
+  /* margin-right: 140px; */
+  /* margin-left: 140px; */
+  /* width: 1160px; */
+  /* justify-content: space-between; */
 
   border-top: 2px solid #eeeeee;
   border-bottom: 2px solid #eeeeee;
 
 }
 
+.about,
+.statistics {
+  margin: 0 auto;
+}
+
 .partners-list {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  margin: 0;
+  min-width: 1160px;
+  /* justify-content: space-around; */
+
   padding: 0;
-  margin-right: 140px;
-  margin-left: 140px;
-  
+  /* margin-right: 140px; */
+  /* margin-left: 140px; */
+
   list-style: none;
 
   opacity: 0.2;
+}
+
+.partners-item {
+  margin:  auto ;
+  /* padding-right: 30px; */
+}
+
+.about {
+  padding-right: 140px;
 }
 
 .about .title {
@@ -340,6 +364,10 @@ button.button {
 
 }
 
+.statistics {
+  padding-left: 140px;
+}
+
 .row-first {
   font-size: 45px;
   line-height: 10px;
@@ -360,6 +388,7 @@ td {
 .statistics .logo {
   width: 360px;
   height: 208px;
+
   /* margin-right: 140px; */
   padding-top: 60px;
   padding-bottom: 50px;
@@ -378,8 +407,19 @@ td {
 }
 
 /* Блок контакты */
-.map img {
+.map  {
+  display: flex;
   background-color: #e9e5dc;
+  min-width: 1160px;
+
+}
+
+.map img {
+  margin:  auto;
+  /* width: 100vw; */
+  /* display: flex; */
+  /* align-items: stretch; */
+  /* flex-grow: 1; */
 }
 
 .address {
