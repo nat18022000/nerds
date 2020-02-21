@@ -201,9 +201,7 @@ p {
 
 
 
-.address a {
-  padding: 20px 50px;
-}
+
 
 button.button {
   padding: 20px 80px;
@@ -268,15 +266,9 @@ button.button {
   display: flex;
   margin-top: 80px;
   min-width: 1160px;
-  /* margin:  auto; */
-  /* margin-right: 140px; */
-  /* margin-left: 140px; */
-  /* width: 1160px; */
-  /* justify-content: space-between; */
 
   border-top: 2px solid #eeeeee;
   border-bottom: 2px solid #eeeeee;
-
 }
 
 .about,
@@ -288,11 +280,7 @@ button.button {
   display: flex;
   align-items: center;
   min-width: 1160px;
-  /* justify-content: space-around; */
-
   padding: 0;
-  /* margin-right: 140px; */
-  /* margin-left: 140px; */
 
   list-style: none;
 
@@ -301,7 +289,6 @@ button.button {
 
 .partners-item {
   margin:  auto ;
-  /* padding-right: 30px; */
 }
 
 .about {
@@ -314,8 +301,6 @@ button.button {
   font-weight: 500;
   margin: 0;
   padding-top: 80px;
-
-
 }
 
 .about-list {
@@ -389,7 +374,6 @@ td {
   width: 360px;
   height: 208px;
 
-  /* margin-right: 140px; */
   padding-top: 60px;
   padding-bottom: 50px;
 }
@@ -410,25 +394,53 @@ td {
 .map  {
   display: flex;
   background-color: #e9e5dc;
-  min-width: 1160px;
+  position: absolute;
+
+  width: 100vw;
 
 }
 
 .map img {
   margin:  auto;
-  /* width: 100vw; */
-  /* display: flex; */
-  /* align-items: stretch; */
-  /* flex-grow: 1; */
+  height: 416px;
 }
 
 .address {
-
+  width: 319px;
+  height: 308px;
   background-color: #ffffff;
 }
 
 .container .address {
-  /* display: flex; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  position: relative;
+  left: 140px;
+  bottom: -55px;
+  z-index: 1;
+}
+
+.address-logo {
+  align-self: center;
+  padding-top: 55px;
+  padding-bottom: 30px;
+}
+
+.address p {
+ align-self: center;
+  width: 210px;
+}
+
+.address .tel {
+  align-self: center;
+}
+
+.address .button {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;  
 }
 
 .footer-text-first {
