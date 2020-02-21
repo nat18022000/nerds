@@ -68,7 +68,7 @@ p {
 }
 
 .cart-link::before {
-  content:  "";  
+  content:  "";
   position: absolute;
   top: 27px;
   left: 52px;
@@ -461,6 +461,7 @@ td {
 .socials {
   display: flex;
   height: 215px;
+
 }
 
 .discount {
@@ -489,15 +490,16 @@ td {
   border-radius: 50%;
 
   background-color: #e1e1e1;
-  padding-left: 5px;
-  padding-right: 5px;
+
   margin-left: 20px;
   position: absolute;
+  display: flex;
+
 }
 .social-item a{
+
   margin: auto;
   padding: 0;
-  padding: 30px;
 
 }
 .vk {
