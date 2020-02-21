@@ -83,14 +83,10 @@ p {
   margin-bottom: 80px;
 
   background-color: #eeeeee;
-
-
-
 }
 
- .page-content .container {
-   min-width: 1160px;
-
+.page-content .container {
+  min-width: 1160px;
 }
 
 .slider-title {
@@ -165,7 +161,6 @@ p {
 
 .advantages-item {
   margin: 0 auto;
-  /* padding-right: 100px; */
 }
 
 .advantages-item img {
@@ -257,7 +252,6 @@ button.button {
 }
 
 /* Блок студия */
-
 .studio .title {
   width: 650px;
 }
@@ -395,14 +389,13 @@ td {
   display: flex;
   background-color: #e9e5dc;
   position: absolute;
-
   width: 100vw;
-
 }
 
 .map img {
   margin:  auto;
   height: 416px;
+
 }
 
 .address {
@@ -440,7 +433,7 @@ td {
 .address .button {
   margin-left: 50px;
   margin-right: 50px;
-  margin-bottom: 50px;  
+  margin-bottom: 50px;
 }
 
 .footer-text-first {
@@ -449,22 +442,79 @@ td {
   font-weight: 700;
 }
 
+.socials {
+  display: flex;
+  height: 215px;
+}
+
 .discount {
   line-height: 22px;
 }
 
 
 .socials-list {
-  background-color: #e1e1e1;
   list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 80px;
+
 }
 
-.socials-list:hover {
+.socials .container {
+  display: flex;
+  height: 80px;
+  padding-top: 150px;
+}
+
+.social-item {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+
+  background-color: #e1e1e1;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 20px;
+  position: absolute;
+}
+.social-item a{
+  margin: auto;
+  padding: 0;
+  padding: 30px;
+
+}
+.vk {
+  position: relative;
+  margin-left: 80px;
+}
+
+.fb {
+  position: relative;
+}
+
+.insta {
+  position: relative;
+}
+.social-item:hover {
   background-color: #e74246;
 }
 
-.socials-list:focus {
+.socials-item:focus {
   background-color: #d7373b;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  width: 560px;
+  padding-left: 140px;
+
+}
+
+.footer-text-first {
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 
 /* Блок Напишите нам */
