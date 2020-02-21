@@ -63,6 +63,22 @@ p {
   margin: 0;
   padding: 0;
   margin-top: 15px;
+  padding-left: 50px;
+  position: relative;
+}
+
+.cart-link::before {
+  content:  "";  
+  position: absolute;
+  top: 27px;
+  left: 52px;
+
+  width: 15px;
+  height: 15px;
+
+  background-image: url('../img/cart-icon.svg'); /*если картинка в папке выше то 2 точки */
+  background-repeat: no-repeat;
+  background-position: 0 0;
 }
 
 .menu-wrapper .container{
@@ -562,7 +578,7 @@ label {
 
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
-  overflow: hidden;  
+  overflow: hidden;
 }
 
 /* .hidden {
