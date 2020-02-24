@@ -712,7 +712,8 @@ label {
   padding-left: 360px;
   }
 
-.filter-item {
+/* сложный фильтр */
+fieldset {
   margin: 0;
   padding: 0;
 
@@ -810,6 +811,8 @@ label {
 .grid-list,
 .features-list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 legend {
@@ -817,6 +820,7 @@ legend {
   line-height: 30px;
   font-weight:700;
   text-transform: uppercase;
+
 }
 
 
@@ -845,7 +849,7 @@ legend {
   background-color: #d5d5d5;
 }
 
-
+/* каталог */
 .catalog .title {
   font-size: 18px;
   line-height: 30px;
