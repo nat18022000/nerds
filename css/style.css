@@ -702,9 +702,7 @@ label {
   overflow: hidden;
 }
 
- .hidden {
-  display: none;
-}
+
 
 /* Страница каталога */
 .header-title {
@@ -881,6 +879,16 @@ legend {
 
 .catalog-text {
   color: #818181;
+  margin: 0 auto;
+  text-align: center;
+  width: 240px;
+}
+
+.sedona .catalog-text,
+.barbershop .catalog-text,
+.mishka .catalog-text
+ {
+  width: 190px;
 }
 
 .catalog {
@@ -899,6 +907,8 @@ legend {
 
 .catalog-item {
   margin-bottom: 75px;
+  border: 2px solid red;
+  height: 576px;
 }
 
 .catalog-item:nth-child(odd) {
@@ -934,4 +944,42 @@ legend {
 
 .catalog-item:hover::before {
   opacity: 1;
+}
+
+.hidden {
+  /* display: none; */
+  width: 360px;
+  height: 231px;
+  background-color: #eeeeee;
+  position: relative;
+  top: -240px;
+
+  border: 1px solid blue;
+}
+
+.catalog-item:hover {
+
+}
+
+.catalog .title {
+  display: block;
+  text-align: center;
+  /* padding-left: 135px; */
+ /* padding-right: 145px; */
+
+  padding-top: 35px;
+  padding-bottom: 25px;
+ text-transform: uppercase;
+
+}
+
+.hidden .button {
+  /* display: block; */
+  text-align: center;
+  padding-top: 20px;
+  width: 200px;
+  height: 50px;
+  margin-left: 80px;
+  /* margin-right: 80px; */
+  /* margin-bottom: 40px; */
 }
