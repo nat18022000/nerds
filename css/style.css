@@ -34,15 +34,21 @@ p {
   height: 65px;
   padding-top: 50px;
   padding-bottom: 18px;
+  padding-left: 140px;
 
   background-color: #eeeeee;
 }
 
 .logo {
   width: 160px;
-  /* height: 65px; */
-  /* padding-left: 140px; */
-  /* padding-top: 45px; */
+  height: 65px;
+
+
+}
+
+.logo a {
+  margin: 0;
+  padding: 0;
 }
 
 .menu-list,
@@ -696,9 +702,9 @@ label {
   overflow: hidden;
 }
 
-/* .hidden {
+ .hidden {
   display: none;
-}*/
+}
 
 /* Страница каталога */
 .header-title {
@@ -830,6 +836,14 @@ legend {
   font-weight:normal;
 }
 
+.filter-full {
+  width: 260px;
+  border: 2px solid blue;
+  margin-left: 140px;
+  margin-top: 65px;
+  position: absolute;
+}
+
 .button-show {
   color: #000000;
   font-family: inherit;
@@ -867,4 +881,72 @@ legend {
 
 .catalog-text {
   color: #818181;
+}
+
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  left: 400px;
+  width: 1040px;
+  margin-top: 175px;
+  /* justify-content: space-between; */
+}
+
+.catalog a {
+  padding: 0;
+}
+
+/* .catalog a:nth-child(odd) {
+  padding-left: 140px;
+}
+
+.catalog a:nth-child(2n) {
+  padding-right: 40px;
+}*/
+
+.catalog-item {
+  /* padding-right: 40px; */
+  /* border: 1px solid red; */
+  margin-bottom: 75px;
+}
+
+.catalog-item:nth-child(odd) {
+  margin-left:  140px;
+  margin-right:  40px;
+}
+
+.catalog-item::before  {
+  content: "";
+  position: absolute;
+  /* top:-40px; */
+
+  width: 360px;
+  height: 40px;
+
+  background-image: url('../img/browser.jpg');
+  opacity: 0.12;
+
+
+  /* border: 1px solid red; */
+
+}
+
+.sedona::before,
+.pink::before {
+  top:-39px;
+}
+
+.barbershop::before,
+.mishka::before {
+  top: 620px;
+}
+
+.aplus::before,
+.kvast::before {
+  top: 1280px;
+}
+
+.catalog-item:hover::before {
+  opacity: 1;
 }
