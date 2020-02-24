@@ -216,6 +216,10 @@ p {
 
 button.button {
   padding: 20px 80px;
+  margin-left: 100px;
+  margin-bottom: 85px;
+  margin-top: 45px;
+
 }
 
 
@@ -535,10 +539,65 @@ td {
   padding-bottom: 10px;
 }
 
-/* Блок Напишите нам */
+/* Блок Напишите нам модальное окно*/
+.write-us {
+  height: 590px;
+  border: 2px solid blue;
+
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 75px;
+  padding-bottom: 85px;
+  position: fixed;
+  bottom: 120px;
+
+  left: 14%;
+  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+}
+
+.modal-close {
+  position: absolute;
+  top: 160px;
+  left: 940px;
+  width: 22px;
+  height: 22px;
+
+  background-color: #ffffff;
+
+  border: 0;
+
+  cursor: pointer;
+}
+
+.modal-close::before,
+.modal-close::after {
+  content: "";
+
+  position: absolute;
+  top: 10px;
+  left: 2px;
+
+  width: 19px;
+  height: 3px;
+
+  background-color: #feddde;
+}
+
+.modal-close::before {
+  transform: rotate(45deg);
+}
+
+.modal-close::after {
+  transform: rotate(-45deg);
+}
+
 .write-us h2 {
   font-size: 45px;
   line-height: 1;
+  margin: 0;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  padding-left: 100px;
 }
 
 .write-us input,
@@ -565,6 +624,55 @@ label {
   line-height: 18px;
   font-weight: 700;
 }
+
+.write-us p {
+  margin: 0;
+  margin-bottom: 40px;
+  margin-left: 100px;
+
+}
+
+.write-us-form {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 960px;
+}
+
+.write-us-form label {
+  display: block;
+  margin-bottom: 10px;
+
+}
+
+.write-us-form input,
+.write-us-form textarea {
+  box-sizing: border-box;
+
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 17px;
+}
+
+.write-us-form textarea {
+  width: 760px;
+}
+
+.name input,
+.email input{
+ width: 360px;
+}
+
+
+.email input{
+  margin-left: -60px;
+}
+
+
+
+
+
+
 
 /*  */
 .visually-hidden {
