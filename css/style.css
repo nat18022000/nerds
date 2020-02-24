@@ -890,24 +890,14 @@ legend {
   left: 400px;
   width: 1040px;
   margin-top: 175px;
-  /* justify-content: space-between; */
+
 }
 
 .catalog a {
   padding: 0;
 }
 
-/* .catalog a:nth-child(odd) {
-  padding-left: 140px;
-}
-
-.catalog a:nth-child(2n) {
-  padding-right: 40px;
-}*/
-
 .catalog-item {
-  /* padding-right: 40px; */
-  /* border: 1px solid red; */
   margin-bottom: 75px;
 }
 
@@ -919,17 +909,12 @@ legend {
 .catalog-item::before  {
   content: "";
   position: absolute;
-  /* top:-40px; */
 
   width: 360px;
   height: 40px;
 
   background-image: url('../img/browser.jpg');
   opacity: 0.12;
-
-
-  /* border: 1px solid red; */
-
 }
 
 .sedona::before,
