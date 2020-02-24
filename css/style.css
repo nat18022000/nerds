@@ -541,8 +541,9 @@ td {
 
 /* Блок Напишите нам модальное окно*/
 .write-us {
-  height: 590px;
-  border: 2px solid blue;
+  height: 590px;  
+
+  display: none;
 
   padding-left: 100px;
   padding-right: 100px;
