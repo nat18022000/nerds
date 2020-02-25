@@ -218,8 +218,15 @@ p {
   margin-left: 140px;
 }
 
+.slider .button:hover {
+  background-color: #e74246;
+}
 
-
+.slider .button:focus {
+  color: #e06366;
+  background-color: #d7373b;
+  box-shadow: inset 0 3px #c13135;
+}
 
 
 button.button {
@@ -240,6 +247,7 @@ button.button {
   color: #e37376;
 
   background-color: #d7373b;
+  box-shadow: inset 0 3px #c13135;
 }
 
 .button.green {
@@ -254,6 +262,7 @@ button.button {
   color: #4dc491;
 
   background-color: #00aa62;
+  box-shadow: inset 0 3px #009958;
 }
 .button.yellow {
   background-color: #efc84a;
@@ -268,6 +277,8 @@ button.button {
   color: #edc265;
 
   background-color: #e5a722;
+  box-shadow: inset 0 3px #ce961f;
+
 }
 
 /* Кнопка в блоке каталог */
@@ -859,6 +870,7 @@ legend {
   color: #959595;
 
   background-color: #d5d5d5;
+  box-shadow: inset 0 3px #bfbfbf;
 }
 
 /* каталог */
@@ -964,7 +976,7 @@ legend {
   text-align: center;
 
   padding-top: 35px;
- text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .hidden .button {
@@ -981,9 +993,55 @@ legend {
 
 /* Кнопки прелистывании страниц под каталогом */
 .pagination-list {
-  list-style: none;
   display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
 
+  list-style: none;
+
+}
+
+.pagination-item a {
+  width: 50px;
+  line-height: 18px;
+  font-weight: 500;
+  margin-right: 10px;
+  color: #000000;
+  background-color: #eeeeee;
+  text-align: center;
+
+  padding-top:  20px;
+  padding-bottom: 20px;
+  margin-bottom: 60px;
+}
+
+.pagination-item-next a{
+  width: 260px;
+  text-transform: uppercase;
+}
+
+.pagination-item:first-child a {
+  margin-left: 140px;
+}
+
+.pagination-item:last-child a {
+  margin-right: 0;
+}
+
+.pagination-item a:hover {
+  color: #777777;
+  background-color: #dfdfdf;
+}
+
+.pagination-item a:focus {
+  color: #b7b7b7;
+  background-color: #d5d5d5;
+  box-shadow: inset 0 3px  #bfbfbf;
+
+}
+
+.pagination-item-current a {
+  background-color: #ffffff;
+  border: 2px solid #dbdbdb;
 }
