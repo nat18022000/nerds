@@ -907,7 +907,7 @@ legend {
 
 .catalog-item {
   margin-bottom: 75px;
-  border: 2px solid red;
+
   height: 576px;
 }
 
@@ -947,39 +947,34 @@ legend {
 }
 
 .hidden {
-  /* display: none; */
+  display: none;
   width: 360px;
   height: 231px;
   background-color: #eeeeee;
   position: relative;
   top: -240px;
-
-  border: 1px solid blue;
 }
 
-.catalog-item:hover {
-
+.catalog-item:hover .hidden {
+  display: block;
 }
 
 .catalog .title {
   display: block;
   text-align: center;
-  /* padding-left: 135px; */
- /* padding-right: 145px; */
 
   padding-top: 35px;
-  padding-bottom: 25px;
  text-transform: uppercase;
-
 }
 
 .hidden .button {
-  /* display: block; */
   text-align: center;
   padding-top: 20px;
+  padding-bottom: 20px;
   width: 200px;
-  height: 50px;
+
   margin-left: 80px;
-  /* margin-right: 80px; */
-  /* margin-bottom: 40px; */
+  margin-top: 35px;
+
+  margin-bottom: 30px;
 }
