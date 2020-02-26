@@ -728,11 +728,6 @@ label {
 }
 
 
-
-
-
-
-
 /*  */
 .visually-hidden {
   position: absolute;
@@ -853,6 +848,8 @@ fieldset {
   border: none;
   border-radius: 5px;
   background-color:  #f1f1f1;
+
+
 }
 
 .max-price {
@@ -872,10 +869,33 @@ legend {
   line-height: 30px;
   font-weight:700;
   text-transform: uppercase;
+}
 
+.grid legend {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.features legend {
+  margin-bottom: 25px;
+}
+.grid {
+  margin-bottom: 35px;
+}
+
+.features {
+  margin-bottom: 33px;
 }
 
 
+
+.grid li {
+  padding-bottom: 15px;
+}
+
+.features li {
+  padding-bottom: 18px;
+}
 .grid label,
 .features label {
   line-height: 20px;
@@ -883,20 +903,31 @@ legend {
 }
 
 .filter-full {
-  width: 260px;
-  border: 2px solid blue;
+  width: 260px;  
   margin-left: 140px;
   margin-top: 65px;
   position: absolute;
+
 }
+
+
+
 
 .button-show {
   color: #000000;
   font-family: inherit;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
   text-transform: uppercase;
 
   background-color: #eeeeee;
   border: none;
+  padding-left: 88px;
+  padding-right: 88px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  width: 260px;
 }
 
 .button-show:hover {
@@ -948,6 +979,7 @@ legend {
   width: 1040px;
   margin-top: 175px;
 
+
 }
 
 .catalog a {
@@ -983,12 +1015,12 @@ legend {
 
 .barbershop::before,
 .mishka::before {
-  top: 620px;
+  top: 612px;
 }
 
 .aplus::before,
 .kvast::before {
-  top: 1280px;
+  top: 1263px;
 }
 
 .catalog-item:hover::before {
