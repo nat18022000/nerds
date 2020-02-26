@@ -454,6 +454,7 @@ td {
 }
 
 /* Блок контакты */
+/* блок карта */
 .map  {
   position: absolute;
 
@@ -467,7 +468,7 @@ td {
   height: 416px;
   margin:  auto;
 }
-
+/* блок с адресом */
 .address {
   width: 319px;
   height: 308px;
@@ -507,6 +508,7 @@ td {
   margin-right: 50px;
 }
 
+/* социальные кнопки */
 .footer-text-first {
   font-size: 36px;
   line-height: 1;
@@ -593,7 +595,7 @@ td {
   left: 14%;
   z-index: 1;
 
-  display: none;
+  display: none;  
   height: 590px;
 
   padding-top: 75px;
@@ -1089,7 +1091,7 @@ legend {
 
 .pagination-item a:focus {
   color: #b7b7b7;
-  
+
   background-color: #d5d5d5;
   box-shadow: inset 0 3px  #bfbfbf;
 
