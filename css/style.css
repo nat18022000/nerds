@@ -4,14 +4,14 @@ body {
   line-height: 24px;
   font-weight: normal;
   color: #000000;
-
 }
 
 a {
-  text-decoration: none;
-  color: #000000;
   display: inline-block;
   padding: 20px 40px;
+
+  text-decoration: none;
+  color: #000000;
 }
 
 p {
@@ -21,10 +21,11 @@ p {
  /* Текстовое оформление ссылок в навигиции хедера */
 .page-header {
   height: 65px;
+  margin-bottom: 68px;
+
   line-height: 30px;
   font-weight: 500;
   text-transform: uppercase;
-  margin-bottom: 68px;
 }
 
 .menu {
@@ -42,8 +43,6 @@ p {
 .logo {
   width: 160px;
   height: 65px;
-
-
 }
 
 .logo a {
@@ -59,7 +58,6 @@ p {
 .menu-list {
   display: flex;
   justify-content: space-between;
-
   width: 440px;
   margin: 0;
   padding: 0;
@@ -67,16 +65,18 @@ p {
 }
 
 .cart {
+  position: relative;
+
   width: 120px;
   margin: 0;
   padding: 0;
   margin-top: 15px;
   padding-left: 50px;
-  position: relative;
 }
 
 .cart-link::before {
   content:  "";
+
   position: absolute;
   top: 27px;
   left: 52px;
@@ -97,14 +97,12 @@ p {
 .menu .container {
   width: 800px;
   margin: 0 auto;
-
   padding: 0 10px;
 }
 
 .slider {
-  padding: 0;
-
   margin-bottom: 80px;
+  padding: 0;
 
   background-color: #eeeeee;
 }
@@ -114,6 +112,7 @@ p {
 }
 
 .slider-title {
+  width: 380px;
   margin: 0;
   margin-left: 140px;
   padding: 0;
@@ -123,7 +122,6 @@ p {
   font-size: 55px;
   line-height: 1;
   font-weight: 500;
-  width: 380px;
 }
 
 .slider-item-second .slider-title {
@@ -146,42 +144,38 @@ p {
   height: 413px;
 
   background-image: url("../img/slide1.png");
-
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .slider-item:nth-of-type(2) {
   position: relative;
+
   height: 413px;
 
   background-image: url("../img/slide2.png");
-
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .slider-item:last-of-type {
   height: 413px;
 
   background-image: url("../img/slide3.png");
-
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .slider-item:nth-child(3),
 .slider-item:last-child {
   /* display: none; */
-
 }
 
 .slider-text {
+  min-width: 361px;
   margin: 0;
   margin-left: 140px;
-  min-width: 361px;
   padding-bottom: 40px;
-
 }
 
 .menu a:hover {
@@ -206,14 +200,15 @@ p {
 }
 /* Заголовки в блоке преимуществ */
 .advantages .title {
+  width: 300px;
   margin: 0;
+  padding-top: 30px;
+  padding-bottom: 25px;
+
   font-size: 24px;
   line-height: 30px;
   font-weight: 700;
   text-transform: uppercase;
-  padding-top: 30px;
-  padding-bottom: 25px;
-  width: 300px;
 }
 
 .advantages {
@@ -230,19 +225,18 @@ p {
 }
 
 .advantages .text {
-  margin: 0;
   width: 260px;
+  margin: 0;
   padding-bottom: 40px;
 }
-
 
 /* Кнопки в блоке преимуществ */
 .button {
   line-height: 18px;
   font-weight: 500;
-  color: #ffffff;
   vertical-align: middle;
   text-transform: uppercase;
+  color: #ffffff;
 
   background-color: #fb565a;
   border: none;
@@ -251,8 +245,8 @@ p {
 
 .slider .button {
   display: inline-block;
-  padding: 20px 60px;
   margin-left: 140px;
+  padding: 20px 60px;
 }
 
 .slider .button:hover {
@@ -267,14 +261,11 @@ p {
 
 
 button.button {
-  padding: 20px 80px;
   margin-left: 100px;
   margin-bottom: 85px;
   margin-top: 45px;
-
+  padding: 20px 80px;
 }
-
-
 
 .button.red:hover {
   background-color: #e74246;
@@ -307,6 +298,7 @@ button.button {
 
 .button.yellow:hover {
   font-weight: 500;
+
   background-color: #eab534;
 }
 
@@ -315,7 +307,6 @@ button.button {
 
   background-color: #e5a722;
   box-shadow: inset 0 3px #ce961f;
-
 }
 
 /* Кнопка в блоке каталог */
@@ -334,8 +325,8 @@ button.button {
 
 .studio .container {
   display: flex;
-  margin-top: 80px;
   min-width: 1160px;
+  margin-top: 80px;
 
   border-top: 2px solid #eeeeee;
   border-bottom: 2px solid #eeeeee;
@@ -352,9 +343,9 @@ button.button {
   min-width: 1160px;
   padding: 0;
 
-  list-style: none;
-
   opacity: 0.2;
+
+  list-style: none;
 }
 
 .partners-item {
@@ -366,11 +357,12 @@ button.button {
 }
 
 .about .title {
+  margin: 0;
+  padding-top: 80px;
+
   font-size: 45px;
   line-height: 1;
   font-weight: 500;
-  margin: 0;
-  padding-top: 80px;
 }
 
 .about-list {
@@ -380,16 +372,19 @@ button.button {
 }
 
 .about-item {
+  position: relative;
+
   padding-bottom: 35px;
   padding-left: 36px;
-  position: relative;
 }
 
 .about-item::before {
   content: "";
+
   position: absolute;
   top: 10px;
   left: 5px;
+
   width: 25px;
   height: 2px;
 
@@ -400,12 +395,11 @@ button.button {
   padding-bottom: 35px;
 }
 
-
 .about .text {
   width: 616px;
   margin: 0;
-  padding-bottom: 50px;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .about .list-title,
@@ -416,7 +410,6 @@ button.button {
 
 .about-list{
   list-style: none;
-
 }
 
 .statistics {
@@ -462,33 +455,35 @@ td {
 
 /* Блок контакты */
 .map  {
-  display: flex;
-  background-color: #e9e5dc;
   position: absolute;
+
+  display: flex;
   width: 100vw;
+
+  background-color: #e9e5dc;
 }
 
 .map img {
-  margin:  auto;
   height: 416px;
-
+  margin:  auto;
 }
 
 .address {
   width: 319px;
   height: 308px;
+
   background-color: #ffffff;
 }
 
 .container .address {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-
   position: relative;
   left: 140px;
   bottom: -55px;
   z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .address-logo {
@@ -498,7 +493,7 @@ td {
 }
 
 .address p {
- align-self: center;
+  align-self: center;
   width: 210px;
 }
 
@@ -507,9 +502,9 @@ td {
 }
 
 .address .button {
+  margin-bottom: 50px;
   margin-left: 50px;
   margin-right: 50px;
-  margin-bottom: 50px;
 }
 
 .footer-text-first {
@@ -521,21 +516,19 @@ td {
 .socials {
   display: flex;
   height: 215px;
-
 }
 
 .discount {
   line-height: 22px;
 }
 
-
 .socials-list {
-  list-style: none;
   display: flex;
+  height: 80px;
   margin: 0;
   padding: 0;
-  height: 80px;
 
+  list-style: none;
 }
 
 .socials .container {
@@ -545,25 +538,24 @@ td {
 }
 
 .social-item {
+  position: absolute;
+
+  display: flex;
   width: 80px;
   height: 80px;
-  border-radius: 50%;
+  margin-left: 20px;
 
   background-color: #e1e1e1;
-
-  margin-left: 20px;
-  position: absolute;
-  display: flex;
-
+  border-radius: 50%;
 }
 .social-item a{
-
   margin: auto;
   padding: 0;
-
 }
+
 .vk {
   position: relative;
+
   margin-left: 80px;
 }
 
@@ -587,7 +579,6 @@ td {
   flex-direction: column;
   width: 560px;
   padding-left: 140px;
-
 }
 
 .footer-text-first {
@@ -597,32 +588,32 @@ td {
 
 /* Блок Напишите нам модальное окно*/
 .write-us {
-  height: 590px;
-
-  display: none;
-
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 75px;
-  padding-bottom: 85px;
   position: fixed;
   bottom: 120px;
-
   left: 14%;
+  z-index: 1;
+
+  display: none;
+  height: 590px;
+
+  padding-top: 75px;
+  padding-bottom: 85px;
+  padding-left: 100px;
+  padding-right: 100px;
+
   background-color: #ffffff;
   box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
-  z-index: 1;
 }
 
 .modal-close {
   position: absolute;
   top: 160px;
   left: 940px;
+
   width: 22px;
   height: 22px;
 
   background-color: #ffffff;
-
   border: 0;
 
   cursor: pointer;
@@ -651,12 +642,13 @@ td {
 }
 
 .write-us h2 {
-  font-size: 45px;
-  line-height: 1;
   margin: 0;
   margin-top: 70px;
   margin-bottom: 50px;
   padding-left: 100px;
+
+  font-size: 45px;
+  line-height: 1;
 }
 
 .write-us input,
@@ -676,6 +668,7 @@ td {
 .write-us input:focus,
 .write-us textarea:focus{
   color: #444444;
+
   border: 2px solid #000000;
 }
 
@@ -688,26 +681,22 @@ label {
   margin: 0;
   margin-bottom: 40px;
   margin-left: 100px;
-
 }
 
 .write-us-form {
   display: flex;
   flex-wrap: wrap;
-
   width: 960px;
 }
 
 .write-us-form label {
   display: block;
   margin-bottom: 10px;
-
 }
 
 .write-us-form input,
 .write-us-form textarea {
   box-sizing: border-box;
-
   padding-top: 18px;
   padding-bottom: 18px;
   padding-left: 17px;
@@ -722,11 +711,9 @@ label {
  width: 360px;
 }
 
-
 .email input{
   margin-left: -60px;
 }
-
 
 /*  */
 .visually-hidden {
@@ -745,18 +732,18 @@ label {
   overflow: hidden;
 }
 
-
-
 /* Страница каталога */
 .header-title {
+  margin: 0;
+  padding-top: 85px;
+  padding-bottom: 115px;
+  padding-left: 360px;
+
   font-size: 55px;
   line-height: 55px;
   font-weight:500;
+
   background-color: #eeeeee;
-  margin: 0;
-  padding-bottom: 115px;
-  padding-top: 85px;
-  padding-left: 360px;
   }
 
 /* сложный фильтр */
@@ -778,8 +765,8 @@ fieldset {
   height: 41px;
   margin-bottom: 15px;
   padding-top: 39px;
-  padding-right: 20px;
   padding-left: 20px;
+  padding-right: 20px;
 
   background-color: #f1f1f1;
 
@@ -837,31 +824,29 @@ fieldset {
 
 .price-controls input {
   width: 60px;
-  padding: 8px 10px;
   margin-left: 10px;
+  padding: 8px 10px;
 
   font-family: Roboto, Arial, sans-serif;
   font-size: 16px;
   text-align: center;
   color: #283136;
 
+  background-color:  #f1f1f1;
   border: none;
   border-radius: 5px;
-  background-color:  #f1f1f1;
-
-
 }
 
 .max-price {
   text-align: right;
 }
 
-
 .grid-list,
 .features-list {
-  list-style: none;
   margin: 0;
   padding: 0;
+
+  list-style: none;
 }
 
 legend {
@@ -887,8 +872,6 @@ legend {
   margin-bottom: 33px;
 }
 
-
-
 .grid li {
   padding-bottom: 15px;
 }
@@ -896,6 +879,7 @@ legend {
 .features li {
   padding-bottom: 18px;
 }
+
 .grid label,
 .features label {
   line-height: 20px;
@@ -903,31 +887,29 @@ legend {
 }
 
 .filter-full {
-  width: 260px;  
-  margin-left: 140px;
-  margin-top: 65px;
   position: absolute;
 
+  width: 260px;
+  margin-left: 140px;
+  margin-top: 65px;
 }
 
-
-
-
 .button-show {
-  color: #000000;
+  width: 260px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 88px;
+  padding-right: 88px;
+
   font-family: inherit;
   font-size: 16px;
   line-height: 18px;
   font-weight: 500;
   text-transform: uppercase;
+  color: #000000;
 
   background-color: #eeeeee;
   border: none;
-  padding-left: 88px;
-  padding-right: 88px;
-  padding-top: 17px;
-  padding-bottom: 17px;
-  width: 260px;
 }
 
 .button-show:hover {
@@ -958,28 +940,27 @@ legend {
 }
 
 .catalog-text {
-  color: #818181;
-  margin: 0 auto;
-  text-align: center;
   width: 240px;
+  margin: 0 auto;
+
+  text-align: center;
+  color: #818181;
 }
 
 .sedona .catalog-text,
 .barbershop .catalog-text,
-.mishka .catalog-text
- {
+.mishka .catalog-text  {
   width: 190px;
 }
 
 .catalog {
-  display: flex;
-  flex-wrap: wrap;
   position: relative;
   left: 400px;
+
+  display: flex;
+  flex-wrap: wrap;
   width: 1040px;
   margin-top: 175px;
-
-
 }
 
 .catalog a {
@@ -987,9 +968,8 @@ legend {
 }
 
 .catalog-item {
-  margin-bottom: 75px;
-
   height: 576px;
+  margin-bottom: 75px;
 }
 
 .catalog-item:nth-child(odd) {
@@ -999,6 +979,7 @@ legend {
 
 .catalog-item::before  {
   content: "";
+
   position: absolute;
 
   width: 360px;
@@ -1028,12 +1009,14 @@ legend {
 }
 
 .hidden {
+  position: relative;
+  top: -240px;
+
   display: none;
   width: 360px;
   height: 231px;
+
   background-color: #eeeeee;
-  position: relative;
-  top: -240px;
 }
 
 .catalog-item:hover .hidden {
@@ -1042,22 +1025,21 @@ legend {
 
 .catalog .title {
   display: block;
-  text-align: center;
-
   padding-top: 35px;
+
+  text-align: center;
   text-transform: uppercase;
 }
 
 .hidden .button {
-  text-align: center;
+  width: 200px;
+  margin-top: 35px;
+  margin-bottom: 30px;
+  margin-left: 80px;
   padding-top: 20px;
   padding-bottom: 20px;
-  width: 200px;
 
-  margin-left: 80px;
-  margin-top: 35px;
-
-  margin-bottom: 30px;
+  text-align: center;
 }
 
 /* Кнопки прелистывании страниц под каталогом */
@@ -1068,25 +1050,26 @@ legend {
   padding: 0;
 
   list-style: none;
-
 }
 
 .pagination-item a {
   width: 50px;
-  line-height: 18px;
-  font-weight: 500;
+  margin-bottom: 60px;
   margin-right: 10px;
-  color: #000000;
-  background-color: #eeeeee;
-  text-align: center;
-
   padding-top:  20px;
   padding-bottom: 20px;
-  margin-bottom: 60px;
+
+  line-height: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: #000000;
+
+  background-color: #eeeeee;
 }
 
 .pagination-item-next a{
   width: 260px;
+
   text-transform: uppercase;
 }
 
@@ -1100,11 +1083,13 @@ legend {
 
 .pagination-item a:hover {
   color: #777777;
+
   background-color: #dfdfdf;
 }
 
 .pagination-item a:focus {
   color: #b7b7b7;
+  
   background-color: #d5d5d5;
   box-shadow: inset 0 3px  #bfbfbf;
 
