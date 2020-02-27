@@ -589,13 +589,53 @@ td {
 }
 
 /* Блок Напишите нам модальное окно*/
+@keyframes bounce {
+  0% {
+    transform: translateY(-2000px) ;
+  }
+
+  70% {
+    transform: translateY(30px);
+  }
+
+  90% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(10px);
+  }
+}
+
 .write-us {
   position: fixed;
   bottom: 120px;
   left: 14%;
   z-index: 1;
 
-  display: none;  
+  display: none;
   height: 590px;
 
   padding-top: 75px;
@@ -605,6 +645,16 @@ td {
 
   background-color: #ffffff;
   box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+}
+
+.modal-show {
+  display: block;
+
+  animation: bounce 0.6s;
+}
+
+.modal-error {
+  animation: shake 0.6s;
 }
 
 .modal-close {
