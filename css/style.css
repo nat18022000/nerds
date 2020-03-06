@@ -1134,7 +1134,7 @@ input:checked {
   font-weight:700;
   color: #000000;
   text-align: center;
-  text-transform: uppercase;  
+  text-transform: uppercase;
 }
 
 .hidden .button {
@@ -1153,17 +1153,18 @@ input:checked {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
+  margin-bottom: 60px;
   padding: 0;
 
   list-style: none;
 }
 
 .pagination-item a {
-  width: 50px;
-  margin-bottom: 60px;
   margin-right: 10px;
   padding-top:  20px;
   padding-bottom: 20px;
+  padding-left: 21px;
+  padding-right: 21px;
 
   line-height: 18px;
   font-weight: 500;
@@ -1171,6 +1172,7 @@ input:checked {
   color: #000000;
 
   background-color: #eeeeee;
+  border-radius: 3px;
 }
 
 .pagination-item-next a{
@@ -1179,13 +1181,6 @@ input:checked {
   text-transform: uppercase;
 }
 
-.pagination-item:first-child a {
-  margin-left: 140px;
-}
-
-.pagination-item:last-child a {
-  margin-right: 0;
-}
 
 .pagination-item a:hover {
   color: #777777;
@@ -1202,6 +1197,7 @@ input:checked {
 }
 
 .pagination-item-current a {
+  padding: 18px 19px;
   background-color: #ffffff;
   border: 2px solid #dbdbdb;
 }
