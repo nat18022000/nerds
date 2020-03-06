@@ -281,24 +281,25 @@ p {
   width: 650px;
 }
 
-.studio .container {
-  display: flex;
-  min-width: 1160px;
-  margin-top: 80px;
+.studio  {
+  margin-bottom: 35px;
+  padding-top: 80px;
+  padding-bottom: 40px;
 
   border-top: 2px solid #eeeeee;
-  border-bottom: 2px solid #eeeeee;
 }
 
-.about,
-.statistics {
-  margin: 0 auto;
+.about-statistics {
+  display: flex;
+  padding-bottom: 80px;
 }
+
 
 .partners-list {
   display: flex;
   align-items: center;
-  min-width: 1160px;
+
+  margin: 0;
   padding: 0;
 
   opacity: 0.2;
@@ -307,7 +308,14 @@ p {
 }
 
 .partners-item {
-  margin:  auto ;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-right: 15px;
+}
+
+.partners {
+  border-top: 2px solid #eeeeee;
+  border-bottom: 2px solid #eeeeee;
 }
 
 .about {
@@ -315,8 +323,7 @@ p {
 }
 
 .about .title {
-  margin: 0;
-  padding-top: 80px;
+  margin-bottom: 45px;
 
   font-size: 45px;
   line-height: 1;
@@ -326,14 +333,16 @@ p {
 .about-list {
   margin: 0;
   padding: 0;
-  padding-bottom: 45px;
 }
 
 .about-item {
   position: relative;
 
-  padding-bottom: 35px;
   padding-left: 36px;
+}
+
+.about-item:not(:last-child){
+  padding-bottom: 40px;
 }
 
 .about-item::before {
@@ -350,14 +359,12 @@ p {
 }
 
 .list-title {
-  padding-bottom: 35px;
+  margin-bottom: 35px;
 }
 
 .about .text {
   width: 616px;
-  margin: 0;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .about .list-title,
@@ -371,7 +378,10 @@ p {
 }
 
 .statistics {
-  padding-left: 140px;
+  padding-top: 230px;
+
+  background-image: url("../img/nerds-illustration.jpg");
+  background-repeat: no-repeat;
 }
 
 .row-first {
@@ -385,22 +395,13 @@ p {
 }
 
 td {
-  width: 104px;
-  height: 35px;
   padding-top: 25px;
-  padding-right: 20px;
-}
-
-.statistics .logo {
-  width: 360px;
-  height: 208px;
-
-  padding-top: 60px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
+  padding-right: 15px;
 }
 
 .statistics .text {
-  padding-bottom: 40px;
+  padding-bottom: 25px;
 }
 
 .partners-list:hover {
@@ -416,16 +417,20 @@ td {
 .map  {
   position: absolute;
 
-  display: flex;
-  width: 100vw;
-
   background-color: #e9e5dc;
 }
 
-.map img {
-  height: 416px;
-  margin:  auto;
+.map-color {
+  margin-bottom: 75px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+
+  background-color: #e9e5dc;
+  background-image: url("../img/map-with-marker.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
 /* блок с адресом */
 .address {
   width: 319px;
