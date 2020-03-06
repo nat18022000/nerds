@@ -19,13 +19,13 @@ body {
   margin: 0 auto;
   padding: 0 20px;
 }
+
 a {
   display: inline-block;
   padding: 20px 40px;
 
   text-decoration: none;
   color: #000000;
-
 }
 
 p {
@@ -44,68 +44,55 @@ p {
 
 .menu {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  height: 65px;
-  padding-top: 50px;
-  padding-bottom: 18px;
-  padding-left: 140px;
-
-  background-color: #eeeeee;
 }
 
 .logo {
-  width: 160px;
-  height: 65px;
-}
-
-.logo a {
-  margin: 0;
-  padding: 0;
+  margin-top: 50px;
+  padding-right: 200px;
 }
 
 .menu-list,
 .cart {
+  margin: 0;
+  margin-top: 80px;
+  padding: 0;
+
   list-style: none;
+}
+
+.menu a {
+  padding: 0;
 }
 
 .menu-list {
   display: flex;
-  justify-content: space-between;
-  width: 440px;
-  margin: 0;
-  padding: 0;
-  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .cart {
   position: relative;
 
-  width: 120px;
-  margin: 0;
-  padding: 0;
-  margin-top: 15px;
-  padding-left: 50px;
+  padding-left: 190px;
 }
 
 .cart-link::before {
   content:  "";
 
   position: absolute;
-  top: 27px;
-  left: 52px;
+  top: 7px;
+  left: 150px;
 
   width: 15px;
   height: 15px;
 
-  background-image: url('../img/cart-icon.svg'); /*если картинка в папке выше то 2 точки */
+  background-image: url('../img/cart-icon.svg');
   background-repeat: no-repeat;
   background-position: 0 0;
 }
-
-
-
-
 
 .slider {
   margin-bottom: 80px;
