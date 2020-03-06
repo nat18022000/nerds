@@ -34,12 +34,11 @@ p {
 
  /* Текстовое оформление ссылок в навигиции хедера */
 .page-header {
-  height: 65px;
-  margin-bottom: 68px;
-
   line-height: 30px;
   font-weight: 500;
   text-transform: uppercase;
+
+  background-color: #eeeeee;
 }
 
 .menu {
@@ -94,24 +93,17 @@ p {
   background-position: 0 0;
 }
 
-.slider {
-  margin-bottom: 80px;
-  padding: 0;
-
+.color {
   background-color: #eeeeee;
 }
 
-.page-content .container {
-  min-width: 1160px;
+.slider-item {
+  padding-top: 80px;
 }
 
 .slider-title {
-  width: 380px;
   margin: 0;
-  margin-left: 140px;
-  padding: 0;
-  padding-top: 65px;
-  padding-bottom: 30px;
+  margin-bottom: 40px;
 
   font-size: 55px;
   line-height: 1;
@@ -135,29 +127,21 @@ p {
 }
 
 .slider-item:first-of-type {
-  height: 413px;
-
   background-image: url("../img/slide1.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 430px;
 }
 
 .slider-item:nth-of-type(2) {
-  position: relative;
-
-  height: 413px;
-
   background-image: url("../img/slide2.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position:  430px;
 }
 
 .slider-item:last-of-type {
-  height: 413px;
-
   background-image: url("../img/slide3.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position:  430px;
 }
 
 .slider-item:nth-child(3),
@@ -166,10 +150,7 @@ p {
 }
 
 .slider-text {
-  min-width: 361px;
-  margin: 0;
-  margin-left: 140px;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .menu a:hover {
@@ -187,17 +168,18 @@ p {
   border-bottom: 2px solid #fb565a;
 }
 
-.advantages .container {
+.advantages {
   display: flex;
-  justify-content: space-around;
-  min-width: 1160px;
+  justify-content: space-between;
+
+  margin-top: 80px;
 }
+
 /* Заголовки в блоке преимуществ */
 .advantages .title {
-  width: 300px;
   margin: 0;
-  padding-top: 30px;
-  padding-bottom: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 
   font-size: 24px;
   line-height: 30px;
@@ -205,23 +187,10 @@ p {
   text-transform: uppercase;
 }
 
-.advantages {
-  padding: 0;
-}
-
-.advantages-item {
-  margin: 0 auto;
-}
-
-.advantages-item img {
-  width: 300px;
-  height: 146px;
-}
 
 .advantages .text {
   width: 260px;
-  margin: 0;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 /* Кнопки в блоке преимуществ */
