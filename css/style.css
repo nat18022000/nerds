@@ -433,42 +433,26 @@ td {
 
 /* блок с адресом */
 .address {
+  position: relative;
+  z-index: 1;
   width: 319px;
-  height: 308px;
+  padding: 50px;
 
   background-color: #ffffff;
 }
 
-.container .address {
-  position: relative;
-  left: 140px;
-  bottom: -55px;
-  z-index: 1;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
 .address-logo {
-  align-self: center;
-  padding-top: 55px;
   padding-bottom: 30px;
 }
 
 .address p {
-  align-self: center;
   width: 210px;
 }
 
 .address .tel {
-  align-self: center;
-}
-
-.address .button {
-  margin-bottom: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
+  padding: 0;
+  padding-top: 25px;
+  padding-bottom: 40px;
 }
 
 /* социальные кнопки */
