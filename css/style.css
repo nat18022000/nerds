@@ -12,6 +12,8 @@ body {
   line-height: 24px;
   font-weight: normal;
   color: #000000;
+
+  margin: 0;
 }
 
 .container {
@@ -37,7 +39,6 @@ p {
   line-height: 30px;
   font-weight: 500;
   text-transform: uppercase;
-
   background-color: #eeeeee;
 }
 
@@ -135,18 +136,18 @@ p {
 .slider-item:nth-of-type(2) {
   background-image: url("../img/slide2.png");
   background-repeat: no-repeat;
-  background-position:  430px;
+  background-position: 430px;
 }
 
 .slider-item:last-of-type {
   background-image: url("../img/slide3.png");
   background-repeat: no-repeat;
-  background-position:  430px;
+  background-position: 430px;
 }
 
 .slider-item:nth-child(3),
 .slider-item:last-child {
-  /* display: none; */
+  display: none;
 }
 
 .slider-text {
@@ -168,7 +169,7 @@ p {
   border-bottom: 2px solid #fb565a;
 }
 
-.advantages {
+.advantages  {
   display: flex;
   justify-content: space-between;
 
@@ -186,7 +187,6 @@ p {
   font-weight: 700;
   text-transform: uppercase;
 }
-
 
 .advantages .text {
   width: 260px;
@@ -224,7 +224,6 @@ p {
 .advantages .button {
   margin-bottom: 80px;
 }
-
 .button.red:hover {
   background-color: #e74246;
 }
@@ -294,7 +293,6 @@ p {
   padding-bottom: 80px;
 }
 
-
 .partners-list {
   display: flex;
   align-items: center;
@@ -303,7 +301,6 @@ p {
   padding: 0;
 
   opacity: 0.2;
-
   list-style: none;
 }
 
@@ -430,7 +427,6 @@ td {
   background-repeat: no-repeat;
   background-position: center;
 }
-
 /* блок с адресом */
 .address {
   position: relative;
@@ -487,10 +483,12 @@ td {
   background-color: #e1e1e1;
   border-radius: 50%;
 }
+
 .social-item a{
   position: relative;
   top: 40%;
   left: 40%;
+
   padding: 0;
 }
 
@@ -505,13 +503,14 @@ td {
 .footer-text {
   display: flex;
   flex-direction: column;
+
   margin-left: 120px;
+
 }
 
 .socials {
   margin-bottom: 80px;
 }
-
 
 /* Блок Напишите нам модальное окно*/
 @keyframes bounce {
@@ -585,11 +584,11 @@ td {
 
 .modal-close {
   position: absolute;
-  top: 160px;
-  left: 940px;
+  bottom: 510px;
+  left: 850px;
 
-  width: 22px;
-  height: 22px;
+  width: 21px;
+  height: 21px;
 
   background-color: #ffffff;
   border: 0;
@@ -660,15 +659,15 @@ label {
 
 .write-us-form label {
   display: block;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .write-us-form input,
 .write-us-form textarea {
   box-sizing: border-box;
   padding-top: 18px;
-  padding-bottom: 18px;
   padding-left: 17px;
+  padding-bottom: 18px;
 }
 
 .write-us-form textarea {
@@ -737,7 +736,7 @@ fieldset {
 .range-controls {
   position: relative;
 
-  height: 41px;
+  height: 82px;
   margin-bottom: 15px;
   padding-top: 39px;
   padding-left: 20px;
@@ -800,7 +799,7 @@ fieldset {
 .price-controls input {
   width: 60px;
   margin-left: 10px;
-  padding: 8px 10px;
+  padding: 8px 0;
 
   font-family: Roboto, Arial, sans-serif;
   font-size: 16px;
@@ -839,6 +838,7 @@ legend {
 .features legend {
   margin-bottom: 25px;
 }
+
 .grid {
   margin-bottom: 35px;
 }
@@ -857,11 +857,10 @@ legend {
 
 .grid label,
 .features label {
-  position: relative;
-  display: inline-block;
-
   line-height: 20px;
   font-weight:normal;
+  display: inline-block;
+  position: relative;
 }
 
 .filter-full {
@@ -874,7 +873,8 @@ legend {
   padding-left: 30px;
 }
 
-[type="checkbox"], [type="radio"] {
+[type="checkbox"],
+[type="radio"] {
   display: none;
 }
 
@@ -896,15 +896,6 @@ legend {
 
 .grid label:hover::before {
   opacity: 1;
-}
-
-.grid label:disabled::before {
-  /* opacity: 0.1; */
-}
-
-input:checked {
-  background-image: url("../img/radio-on.svg");
-  opacity: 0.4;
 }
 
 .features-item label::before {
@@ -954,9 +945,7 @@ input:checked {
 .catalog-container  {
   display: flex;
 }
-
 /* каталог */
-
 .catalog p {
   line-height: 18px;
 }
@@ -1020,6 +1009,7 @@ input:checked {
 
   width: 11px;
   height: 10px;
+
 }
 
 .by-name::before {
@@ -1045,7 +1035,6 @@ input:checked {
 .by-name:active::after {
   opacity: 1;
 }
-
 
 .sort-text {
   display: flex;
@@ -1088,6 +1077,7 @@ input:checked {
 
   margin-right: 40px;
   margin-bottom: 70px;
+
 }
 
 .catalog-item:nth-child(2n) {
@@ -1135,9 +1125,9 @@ input:checked {
   font-size: 18px;
   line-height: 30px;
   font-weight:700;
-  color: #000000;
   text-align: center;
   text-transform: uppercase;
+  color: #000000;
 }
 
 .hidden .button {
@@ -1145,8 +1135,8 @@ input:checked {
   margin-top: 35px;
   margin-bottom: 30px;
   margin-left: 80px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 18px;
+  padding-bottom: 18px;
 
   text-align: center;
 }
@@ -1161,6 +1151,7 @@ input:checked {
 
   list-style: none;
 }
+
 
 .pagination-item a {
   margin-right: 10px;
@@ -1183,7 +1174,6 @@ input:checked {
 
   text-transform: uppercase;
 }
-
 
 .pagination-item a:hover {
   color: #777777;
