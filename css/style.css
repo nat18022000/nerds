@@ -922,7 +922,6 @@ input:checked {
   opacity: 0.4;
 }
 
-
 .button-show {
   width: 260px;
   padding-top: 17px;
@@ -950,6 +949,10 @@ input:checked {
 
   background-color: #d5d5d5;
   box-shadow: inset 0 3px #bfbfbf;
+}
+
+.catalog-container  {
+  display: flex;
 }
 
 /* каталог */
